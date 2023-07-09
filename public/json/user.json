@@ -1,0 +1,214 @@
+{
+  "user": [
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus123456",
+        "transfer_amount": 50,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Punjab National Bank",
+        "payment_details": "Credit Card"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus168882893939",
+        "transfer_amount": "4343",
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "afadf",
+        "payment_details": "dddsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus20230708524",
+        "transfer_amount": "434",
+        "transfer_currancy": "CHF",
+        "beneficiary_bank": "sdsd",
+        "payment_details": "ewesdsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus123456",
+        "transfer_amount": 50,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Punjab National Bank",
+        "payment_details": "Credit Card"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus168882893939",
+        "transfer_amount": "4343",
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "afadf",
+        "payment_details": "dddsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus20230708524",
+        "transfer_amount": "434",
+        "transfer_currancy": "CHF",
+        "beneficiary_bank": "sdsd",
+        "payment_details": "ewesdsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus123456",
+        "transfer_amount": 50,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Punjab National Bank",
+        "payment_details": "Credit Card"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus168882893939",
+        "transfer_amount": "4343",
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "afadf",
+        "payment_details": "dddsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus20230708524",
+        "transfer_amount": "434",
+        "transfer_currancy": "CHF",
+        "beneficiary_bank": "sdsd",
+        "payment_details": "ewesdsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus123456",
+        "transfer_amount": 50,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Punjab National Bank",
+        "payment_details": "Credit Card"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus168882893939",
+        "transfer_amount": "4343",
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "afadf",
+        "payment_details": "dddsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus20230708524",
+        "transfer_amount": "434",
+        "transfer_currancy": "CHF",
+        "beneficiary_bank": "sdsd",
+        "payment_details": "ewesdsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus123456",
+        "transfer_amount": 50,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Punjab National Bank",
+        "payment_details": "Credit Card"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus168882893939",
+        "transfer_amount": "4343",
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "afadf",
+        "payment_details": "dddsd"
+    },
+    {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+        },
+        "reference": "cus20230708524",
+        "transfer_amount": "434",
+        "transfer_currancy": "CHF",
+        "beneficiary_bank": "sdsd",
+        "payment_details": "ewesdsd"
+    }
+]
+}
