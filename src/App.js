@@ -13,19 +13,23 @@ import axios from "axios";
 
 const App = () => {
   const [userData, setUserData] = useState(null);
+  const [user, setUser] = useState(null);
   const [data, setData] = useState([]);
   const navigate = useNavigate();
   const getData = (id) => {
-
     axios
       .get("/json/user.json")
       .then((res) => {
-        if (res.data) {
-          const userData = res.data?.user?.filter(
-            (item) => item.customer_info?.user_id === id
-          );
-       
-          setData(userData);
+        if (res.data?.user) {
+          if (user?.isLogin?.userType === "user") {
+            const userData = res.data?.user?.filter(
+              (item) => item.customer_info?.user_id === id
+            );
+
+            setData(userData);
+          } else {
+            setData(res.data?.user);
+          }
         }
       })
       .catch((err) => {
@@ -35,30 +39,22 @@ const App = () => {
   useEffect(() => {
     const userToken = localStorage.getItem("userToken");
     const user = JSON.parse(userToken);
-    getData(user?.id);
+    setUser(user);
     setUserData({ isLogin: user ? user : { status: false } });
   }, []);
   useEffect(() => {
     if (userData?.isLogin && !userData?.isLogin?.status) {
       navigate("/");
     }
-    //  else if (
-    //   userData?.isLogin &&
-    //   userData?.isLogin?.status &&
-    //   userData?.isLogin?.userType === "admin"
-    // ) {
-    //   navigate("/admin");
-    // } else if (
-    //   userData?.isLogin &&
-    //   userData?.isLogin?.status &&
-    //   userData?.isLogin?.userType === "user"
-    // ) {
-    //   navigate("/customer-form");
-    // }
   }, [userData?.isLogin]);
   useEffect(() => {
-    setUserData((perv) => ({ ...perv, data :data}));
-  }, [userData?.isLogin,data]);
+    if (user?.isLogin?.status) {
+      getData(user?.id);
+    }
+  }, [user]);
+  useEffect(() => {
+    setUserData((perv) => ({ ...perv, data: data }));
+  }, [userData?.isLogin, data]);
   if (userData?.isLogin?.userType === "user") {
     return (
       <UserContext.Provider value={[userData, setUserData]}>
@@ -76,6 +72,7 @@ const App = () => {
         <AdminLayout>
           <Routes>
             <Route path="/admin" element={<Admin />} />
+            <Route path="/table" element={<Table />} />
           </Routes>
         </AdminLayout>
       </UserContext.Provider>

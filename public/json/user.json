@@ -1,214 +1,679 @@
 {
   "user": [
     {
+      "customer_info": {
+        "user_id": 1,
+        "customer_number": 1,
+        "customer_name": "Jhon",
+        "customer_address": "Mumbai",
+        "phone": 1111111111
+      },
+      "reference": "cus123456",
+      "transfer_amount": 50,
+      "transfer_currancy": "AED",
+      "beneficiary_bank": "Punjab National Bank",
+      "payment_details": "Credit Card"
+    },
+    {
+      "customer_info": {
+        "user_id": 2,
+        "customer_number": 2,
+        "customer_name": "Jane",
+        "customer_address": "Delhi",
+        "phone": 2222222222
+      },
+      "reference": "cus789012",
+      "transfer_amount": 75,
+      "transfer_currancy": "USD",
+      "beneficiary_bank": "HDFC Bank",
+      "payment_details": "Debit Card"
+    },
+    {
         "customer_info": {
             "user_id": 1,
             "customer_number": 1,
             "customer_name": "Jhon",
             "customer_address": "Mumbai",
             "phone": 1111111111
+          },
+      "reference": "cus345678",
+      "transfer_amount": 100,
+      "transfer_currancy": "EUR",
+      "beneficiary_bank": "ICICI Bank",
+      "payment_details": "Net Banking"
+    },
+    {
+        "customer_info": {
+          "user_id": 4,
+          "customer_number": 4,
+          "customer_name": "Emily",
+          "customer_address": "Chennai",
+          "phone": 4444444444
         },
-        "reference": "cus123456",
-        "transfer_amount": 50,
+        "reference": "cus987654",
+        "transfer_amount": 200,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Axis Bank",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+          "user_id": 5,
+          "customer_number": 5,
+          "customer_name": "Michael",
+          "customer_address": "Kolkata",
+          "phone": 5555555555
+        },
+        "reference": "cus234567",
+        "transfer_amount": 150,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "State Bank of India",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+          },
+        "reference": "cus890123",
+        "transfer_amount": 80,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "Credit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 7,
+          "customer_number": 7,
+          "customer_name": "Liam",
+          "customer_address": "Pune",
+          "phone": 7777777777
+        },
+        "reference": "cus456789",
+        "transfer_amount": 120,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "Canara Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 8,
+          "customer_number": 8,
+          "customer_name": "Olivia",
+          "customer_address": "Jaipur",
+          "phone": 8888888888
+        },
+        "reference": "cus012345",
+        "transfer_amount": 90,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Bank of Maharashtra",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 9,
+          "customer_number": 9,
+          "customer_name": "Noah",
+          "customer_address": "Ahmedabad",
+          "phone": 9999999999
+        },
+        "reference": "cus567890",
+        "transfer_amount": 60,
         "transfer_currancy": "AED",
+        "beneficiary_bank": "UCO Bank",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+          "user_id": 10,
+          "customer_number": 10,
+          "customer_name": "Ava",
+          "customer_address": "Lucknow",
+          "phone": 1010101010
+        },
+        "reference": "cus234567",
+        "transfer_amount": 70,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Bank of India",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+            "user_id": 1,
+            "customer_number": 1,
+            "customer_name": "Jhon",
+            "customer_address": "Mumbai",
+            "phone": 1111111111
+          },
+        "reference": "cus789012",
+        "transfer_amount": 100,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "Punjab & Sind Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 12,
+          "customer_number": 12,
+          "customer_name": "Mia",
+          "customer_address": "Nagpur",
+          "phone": 1212121212
+        },
+        "reference": "cus345678",
+        "transfer_amount": 85,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "IDBI Bank",
+        "payment_details": "Credit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 13,
+          "customer_number": 13,
+          "customer_name": "James",
+          "customer_address": "Indore",
+          "phone": 1313131313
+        },
+        "reference": "cus901234",
+        "transfer_amount": 95,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "Indian Bank",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 14,
+          "customer_number": 14,
+          "customer_name": "Isabella",
+          "customer_address": "Surat",
+          "phone": 1414141414
+        },
+        "reference": "cus567890",
+        "transfer_amount": 120,
+        "transfer_currancy": "AED",
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+          "user_id": 15,
+          "customer_number": 15,
+          "customer_name": "Benjamin",
+          "customer_address": "Kanpur",
+          "phone": 1515151515
+        },
+        "reference": "cus234567",
+        "transfer_amount": 70,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "State Bank of India",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+          "user_id": 16,
+          "customer_number": 16,
+          "customer_name": "Charlotte",
+          "customer_address": "Bhopal",
+          "phone": 1616161616
+        },
+        "reference": "cus890123",
+        "transfer_amount": 90,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "HDFC Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 17,
+          "customer_number": 17,
+          "customer_name": "Lucas",
+          "customer_address": "Visakhapatnam",
+          "phone": 1717171717
+        },
+        "reference": "cus456789",
+        "transfer_amount": 150,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "ICICI Bank",
+        "payment_details": "Credit Card"
+      },
+     
+      {
+        "customer_info": {
+          "user_id": 19,
+          "customer_number": 19,
+          "customer_name": "Henry",
+          "customer_address": "Coimbatore",
+          "phone": 1919191919
+        },
+        "reference": "cus567890",
+        "transfer_amount": 100,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Axis Bank",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 20,
+          "customer_number": 20,
+          "customer_name": "Grace",
+          "customer_address": "Agra",
+          "phone": 2020202020
+        },
+        "reference": "cus234567",
+        "transfer_amount": 120,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 21,
+          "customer_number": 21,
+          "customer_name": "Daniel",
+          "customer_address": "Ludhiana",
+          "phone": 2121212121
+        },
+        "reference": "cus789012",
+        "transfer_amount": 70,
+        "transfer_currancy": "EUR",
         "beneficiary_bank": "Punjab National Bank",
         "payment_details": "Credit Card"
-    },
-    {
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 22,
+          "customer_number": 22,
+          "customer_name": "Victoria",
+          "customer_address": "Varanasi",
+          "phone": 2222222222
         },
-        "reference": "cus168882893939",
-        "transfer_amount": "4343",
+        "reference": "cus345678",
+        "transfer_amount": 85,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "HDFC Bank",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+          "user_id": 23,
+          "customer_number": 23,
+          "customer_name": "Joseph",
+          "customer_address": "Faridabad",
+          "phone": 2323232323
+        },
+        "reference": "cus901234",
+        "transfer_amount": 90,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "ICICI Bank",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+          "user_id": 24,
+          "customer_number": 24,
+          "customer_name": "Nora",
+          "customer_address": "Meerut",
+          "phone": 2424242424
+        },
+        "reference": "cus567890",
+        "transfer_amount": 100,
         "transfer_currancy": "AED",
-        "beneficiary_bank": "afadf",
-        "payment_details": "dddsd"
-    },
-    {
+        "beneficiary_bank": "State Bank of India",
+        "payment_details": "Net Banking"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 25,
+          "customer_number": 25,
+          "customer_name": "Carter",
+          "customer_address": "Guwahati",
+          "phone": 2525252525
         },
-        "reference": "cus20230708524",
-        "transfer_amount": "434",
-        "transfer_currancy": "CHF",
-        "beneficiary_bank": "sdsd",
-        "payment_details": "ewesdsd"
-    },
-    {
-        "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
-        },
-        "reference": "cus123456",
-        "transfer_amount": 50,
-        "transfer_currancy": "AED",
-        "beneficiary_bank": "Punjab National Bank",
+        "reference": "cus234567",
+        "transfer_amount": 75,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "Bank of Maharashtra",
         "payment_details": "Credit Card"
-    },
-    {
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 26,
+          "customer_number": 26,
+          "customer_name": "Hannah",
+          "customer_address": "Jodhpur",
+          "phone": 2626262626
         },
-        "reference": "cus168882893939",
-        "transfer_amount": "4343",
-        "transfer_currancy": "AED",
-        "beneficiary_bank": "afadf",
-        "payment_details": "dddsd"
-    },
-    {
+        "reference": "cus890123",
+        "transfer_amount": 110,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Canara Bank",
+        "payment_details": "Debit Card"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 27,
+          "customer_number": 27,
+          "customer_name": "William",
+          "customer_address": "Solapur",
+          "phone": 2727272727
         },
-        "reference": "cus20230708524",
-        "transfer_amount": "434",
-        "transfer_currancy": "CHF",
-        "beneficiary_bank": "sdsd",
-        "payment_details": "ewesdsd"
-    },
-    {
+        "reference": "cus456789",
+        "transfer_amount": 95,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "UCO Bank",
+        "payment_details": "Cheque"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 28,
+          "customer_number": 28,
+          "customer_name": "Evelyn",
+          "customer_address": "Ranchi",
+          "phone": 2828282828
         },
-        "reference": "cus123456",
-        "transfer_amount": 50,
-        "transfer_currancy": "AED",
-        "beneficiary_bank": "Punjab National Bank",
+        "reference": "cus012345",
+        "transfer_amount": 80,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Bank of India",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+          "user_id": 29,
+          "customer_number": 29,
+          "customer_name": "Alexander",
+          "customer_address": "Thiruvananthapuram",
+          "phone": 2929292929
+        },
+        "reference": "cus567890",
+        "transfer_amount": 120,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Punjab & Sind Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 30,
+          "customer_number": 30,
+          "customer_name": "Addison",
+          "customer_address": "Ghaziabad",
+          "phone": 3030303030
+        },
+        "reference": "cus234567",
+        "transfer_amount": 70,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "IDBI Bank",
         "payment_details": "Credit Card"
-    },
-    {
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 31,
+          "customer_number": 31,
+          "customer_name": "Sebastian",
+          "customer_address": "Kota",
+          "phone": 3131313131
         },
-        "reference": "cus168882893939",
-        "transfer_amount": "4343",
+        "reference": "cus901234",
+        "transfer_amount": 100,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Indian Bank",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 32,
+          "customer_number": 32,
+          "customer_name": "Ella",
+          "customer_address": "Hisar",
+          "phone": 3232323232
+        },
+        "reference": "cus567890",
+        "transfer_amount": 85,
         "transfer_currancy": "AED",
-        "beneficiary_bank": "afadf",
-        "payment_details": "dddsd"
-    },
-    {
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "Cheque"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 34,
+          "customer_number": 34,
+          "customer_name": "Scarlett",
+          "customer_address": "Mathura",
+          "phone": 3434343434
         },
-        "reference": "cus20230708524",
-        "transfer_amount": "434",
-        "transfer_currancy": "CHF",
-        "beneficiary_bank": "sdsd",
-        "payment_details": "ewesdsd"
-    },
-    {
+        "reference": "cus234567",
+        "transfer_amount": 95,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "State Bank of India",
+        "payment_details": "UPI"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 35,
+          "customer_number": 35,
+          "customer_name": "Leo",
+          "customer_address": "Mangalore",
+          "phone": 3535353535
         },
-        "reference": "cus123456",
-        "transfer_amount": 50,
-        "transfer_currancy": "AED",
-        "beneficiary_bank": "Punjab National Bank",
+        "reference": "cus890123",
+        "transfer_amount": 120,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "HDFC Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 36,
+          "customer_number": 36,
+          "customer_name": "Avery",
+          "customer_address": "Thane",
+          "phone": 3636363636
+        },
+        "reference": "cus456789",
+        "transfer_amount": 150,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "ICICI Bank",
         "payment_details": "Credit Card"
-    },
-    {
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 37,
+          "customer_number": 37,
+          "customer_name": "Luna",
+          "customer_address": "Jamshedpur",
+          "phone": 3737373737
         },
-        "reference": "cus168882893939",
-        "transfer_amount": "4343",
+        "reference": "cus012345",
+        "transfer_amount": 80,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "Canara Bank",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 38,
+          "customer_number": 38,
+          "customer_name": "Samuel",
+          "customer_address": "Raipur",
+          "phone": 3838383838
+        },
+        "reference": "cus567890",
+        "transfer_amount": 90,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Bank of Maharashtra",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+          "user_id": 39,
+          "customer_number": 39,
+          "customer_name": "Penelope",
+          "customer_address": "Kozhikode",
+          "phone": 3939393939
+        },
+        "reference": "cus234567",
+        "transfer_amount": 100,
         "transfer_currancy": "AED",
-        "beneficiary_bank": "afadf",
-        "payment_details": "dddsd"
-    },
-    {
+        "beneficiary_bank": "UCO Bank",
+        "payment_details": "UPI"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 40,
+          "customer_number": 40,
+          "customer_name": "Wyatt",
+          "customer_address": "Nashik",
+          "phone": 4040404040
         },
-        "reference": "cus20230708524",
-        "transfer_amount": "434",
-        "transfer_currancy": "CHF",
-        "beneficiary_bank": "sdsd",
-        "payment_details": "ewesdsd"
-    },
-    {
+        "reference": "cus789012",
+        "transfer_amount": 70,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "Net Banking"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 41,
+          "customer_number": 41,
+          "customer_name": "Sofia",
+          "customer_address": "Gorakhpur",
+          "phone": 4141414141
         },
-        "reference": "cus123456",
-        "transfer_amount": 50,
-        "transfer_currancy": "AED",
-        "beneficiary_bank": "Punjab National Bank",
+        "reference": "cus345678",
+        "transfer_amount": 110,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Punjab & Sind Bank",
         "payment_details": "Credit Card"
-    },
-    {
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 42,
+          "customer_number": 42,
+          "customer_name": "Grayson",
+          "customer_address": "Patiala",
+          "phone": 4242424242
         },
-        "reference": "cus168882893939",
-        "transfer_amount": "4343",
+        "reference": "cus901234",
+        "transfer_amount": 95,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "State Bank of India",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 43,
+          "customer_number": 43,
+          "customer_name": "Layla",
+          "customer_address": "Ajmer",
+          "phone": 4343434343
+        },
+        "reference": "cus567890",
+        "transfer_amount": 80,
+        "transfer_currancy": "INR",
+        "beneficiary_bank": "UCO Bank",
+        "payment_details": "Cheque"
+      },
+      {
+        "customer_info": {
+          "user_id": 44,
+          "customer_number": 44,
+          "customer_name": "Jackson",
+          "customer_address": "Bhubaneswar",
+          "phone": 4444444444
+        },
+        "reference": "cus012345",
+        "transfer_amount": 100,
         "transfer_currancy": "AED",
-        "beneficiary_bank": "afadf",
-        "payment_details": "dddsd"
-    },
-    {
+        "beneficiary_bank": "Bank of Baroda",
+        "payment_details": "UPI"
+      },
+      {
         "customer_info": {
-            "user_id": 1,
-            "customer_number": 1,
-            "customer_name": "Jhon",
-            "customer_address": "Mumbai",
-            "phone": 1111111111
+          "user_id": 45,
+          "customer_number": 45,
+          "customer_name": "Aria",
+          "customer_address": "Moradabad",
+          "phone": 4545454545
         },
-        "reference": "cus20230708524",
-        "transfer_amount": "434",
-        "transfer_currancy": "CHF",
-        "beneficiary_bank": "sdsd",
-        "payment_details": "ewesdsd"
-    }
-]
+        "reference": "cus234567",
+        "transfer_amount": 75,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "HDFC Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 46,
+          "customer_number": 46,
+          "customer_name": "Elijah",
+          "customer_address": "Durgapur",
+          "phone": 4646464646
+        },
+        "reference": "cus890123",
+        "transfer_amount": 120,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "ICICI Bank",
+        "payment_details": "Credit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 47,
+          "customer_number": 47,
+          "customer_name": "Abigail",
+          "customer_address": "Allahabad",
+          "phone": 4747474747
+        },
+        "reference": "cus456789",
+        "transfer_amount": 95,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Canara Bank",
+        "payment_details": "Debit Card"
+      },
+      {
+        "customer_info": {
+          "user_id": 48,
+          "customer_number": 48,
+          "customer_name": "Mateo",
+          "customer_address": "Kochi",
+          "phone": 4848484848
+        },
+        "reference": "cus012345",
+        "transfer_amount": 80,
+        "transfer_currancy": "GBP",
+        "beneficiary_bank": "Bank of India",
+        "payment_details": "UPI"
+      },
+      {
+        "customer_info": {
+          "user_id": 49,
+          "customer_number": 49,
+          "customer_name": "Camila",
+          "customer_address": "Amritsar",
+          "phone": 4949494949
+        },
+        "reference": "cus567890",
+        "transfer_amount": 100,
+        "transfer_currancy": "USD",
+        "beneficiary_bank": "Punjab & Sind Bank",
+        "payment_details": "Net Banking"
+      },
+      {
+        "customer_info": {
+          "user_id": 50,
+          "customer_number": 50,
+          "customer_name": "Henry",
+          "customer_address": "Coimbatore",
+          "phone": 5050505050
+        },
+        "reference": "cus234567",
+        "transfer_amount": 70,
+        "transfer_currancy": "EUR",
+        "beneficiary_bank": "IDBI Bank",
+        "payment_details": "Credit Card"
+      }
+   
+  ]
+  
 }

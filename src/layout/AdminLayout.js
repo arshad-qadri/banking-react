@@ -2,8 +2,7 @@ import Navbar from "../components/Navbar";
 
 const navigation = [
   { name: "Dashboard", href: "/", current: true },
-  { name: "Customer Form", href: "/c", current: false },
-  { name: "Table", href: "/cs", current: false },
+  { name: "Table", href: "/table", current: false },
 ];
 
 const AdminLayout = ({ children }) => {
